@@ -1,5 +1,5 @@
 import React from 'react';
-import { MoveDown } from 'lucide-react';
+// import { MoveDown } from 'lucide-react';
 import styles from "./FirstScreen.module.css";
 
 const FirstScreen = () => {
@@ -17,7 +17,7 @@ const FirstScreen = () => {
         </div>
         <h1 className={styles.title}>קבוצות ההורים והתינוקות בגני איילון</h1>
         <div className={styles.arrowWrapper}>
-          <MoveDown className={styles.arrow} size={32} />
+          {/* <MoveDown className={styles.arrow} size={32} /> */}
         </div>
       </div>
     </div>
